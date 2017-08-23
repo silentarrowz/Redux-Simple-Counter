@@ -10,7 +10,7 @@ class App extends Component {
 
           <h2>Welcome to Simple Redux Counter</h2>
         </div>
-        <p className="App-intro">
+        <p className='App-intro'>
           <button onClick={this.props.increment} >+</button>
           <button onClick={this.props.decrement} >-</button><br/>
         Present Value is {this.props.value}
